@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+
+nav ul {
+    background-color: rgb(215, 228, 250);
+    overflow:hidden;
+    list-style-type: none;
+    }
+   
+    nav a {
+       float:left;
+       display:block;
+       color:rgba(0, 68, 255, 0.628);
+       text-align:center;
+       padding: 10px;
+       text-decoration: none;
+    }
+    nav a:hover {
+       background-color:white 
+    }
+    #active {
+       background-color: white 
+    } 
+
+body{
+    font-family: Knockout 49A;
+    background-color:rgb(215, 242, 250);
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+.factbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.one{
+    border: 3px solid rgba(0, 68, 255, 0.628);
+} 
+
+.two{
+    border: 3px solid rgba(0, 68, 255, 0.628);
+} 
+
+.three{
+    border: 3px solid rgba(0, 68, 255, 0.628);
+} 
+
+.sus{
+    width:150px;
+    margin-top: 0px;
+}
+
+.hsus{
+margin-bottom: 0px;
+display: inline-block;
+
+}
+
+.headd{
+    display:flex;
+    justify-content: space-between;
+}
