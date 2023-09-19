@@ -24,7 +24,7 @@ nav ul {
     } 
 
 body{
-    font-family: Knockout 49A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:rgb(215, 242, 250);
     padding-left: 15%;
     padding-right:15%;
@@ -39,14 +39,26 @@ body{
 
 .one{
     border: 3px solid rgba(0, 68, 255, 0.628);
+    padding: 8px;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: rgb(215, 228, 250); 
 } 
 
 .two{
-    border: 3px solid rgba(0, 68, 255, 0.628);
+    border: 3px solid  rgba(0, 68, 255, 0.628);
+    padding: 8px;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: rgb(215, 228, 250); 
 } 
 
 .three{
     border: 3px solid rgba(0, 68, 255, 0.628);
+    padding: 8px;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: rgb(215, 228, 250);
 } 
 
 .sus{
@@ -63,4 +75,16 @@ display: inline-block;
 .headd{
     display:flex;
     justify-content: space-between;
+}
+
+.uno{
+    font-size: 140%;
+}
+
+.dos{
+    font-size: 140%;
+}
+
+.tres{
+    font-size: 140%;
 }
